@@ -1,0 +1,82 @@
+
+.Add-btn {
+  border-radius: 25px;
+  background-color: #fe4141;
+  border: transparent;
+  color: white;
+  font-size: 300px;
+  padding: 8px 20px;
+  margin: 30px 0 30px 20px;
+  cursor: pointer;
+  width: 260px;
+  height: 550px;
+  box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
+}
+.Add-btn:focus {
+  outline: 0;
+}
+/* add movie modal */
+.addMovie-h1 {
+  color: #1e1b26;
+}
+.add-modal {
+  position: relative;
+  top: 10%;
+  left: 35%;
+  padding: 20px;
+  width: 500px;
+  text-align: center;
+  border: 1px solid #1e1b26;
+  border-radius: 5px;
+  background-color: white;
+}
+form h1 {
+  text-decoration: underline;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+form input {
+  width: 98%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  color: grey;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+form label {
+  margin-top: 20px;
+}
+form input:focus {
+  outline: 0;
+}
+form textarea{
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  color: grey;
+  padding: 10px;
+  margin-top: 10px;
+}
+form textarea:focus {
+  outline: 0;
+}
+/* modal Buttons */
+.Modal-btn {
+  border-radius: 5px;
+  background-color: #fe4141;
+  border: transparent;
+  color: white;
+  padding: 8px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.Modal-btn:hover {
+  background-color: rgba(254, 65, 65, 0.8);
+}
+.Modal-btn:focus {
+  outline: 0;
+}
