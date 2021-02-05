@@ -2,7 +2,7 @@ import React from "react";
 import {Card} from "react-bootstrap";
 import Rate from '../../Rate';
 import "./MovieCards.css";
-
+import {Link } from "react-router-dom";
 
 const MovieCard = ({movie}) => {
   return (
@@ -31,6 +31,8 @@ const MovieCard = ({movie}) => {
             <div className="col2">
               <div className="watch-btn">
                 <h3>WATCH TRAILER</h3>
+                <li><Link to={`/movies/${movie.name}`}>Trailer</Link></li>
+                <link></link>
               </div>
             </div>
           </div>
